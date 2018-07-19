@@ -22,8 +22,10 @@ end
 
 def sort
   Hash[@roster.sort.map { |a,b| [a, b.sort] }]
-
+# hash is creating a new hash we which will contain this info
+#@roster will sort by keys and we will do each block of code for
+# each iteration
+# we will now take our keys and also sort them
 end
-
 
 end
